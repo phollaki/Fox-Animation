@@ -34,7 +34,7 @@ gltfLoader.load(
         // }
 
         mixer = new THREE.AnimationMixer(gltf.scene)
-        const action = mixer.clipAction(gltf.animations[0])
+        const action = mixer.clipAction(gltf.animations[2])
 
         action.play()
 
